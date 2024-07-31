@@ -1,0 +1,66 @@
+.banner {
+    background: linear-gradient(to right, #095d80, #b70a3c); /* Gradiente de azul para azul claro */
+    height: 500px; /* Ajuste conforme necessário */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.8);
+    border-top: solid 4px #095d80;
+  }
+  
+  .banner-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .image-container {
+    flex: 1;
+    padding-right: 20px; /* Espaçamento entre a imagem e o texto */
+  }
+  
+  .banner-image {
+    margin-top: 50px;
+    width: 104%; /* Ajusta o tamanho da imagem para ocupar 100% da largura do contêiner */
+    height: auto;
+    transition: transform 0.3s ease; /* Adiciona uma transição suave para a transformação */
+  }
+  
+  .text-container {
+    flex: 1;
+    padding-top: 300px;
+  }
+  
+  .first-text {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.4); /* Aplica um text shadow */
+    color: #eef6ff; /* Define a cor do primeiro texto */
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+  }
+  
+  .second-text {
+    color: #c6d9ff; /* Define a cor do segundo texto */
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+  }
+  
+
+  .whatsapp-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.25rem;
+    background-color: #28a745; /* Cor de destaque do botão do WhatsApp */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none; /* Remove sublinhado do link */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .whatsapp-button:hover {
+    background-color: #218838; /* Cor um pouco mais escura para realçar ao passar o mouse */
+  }

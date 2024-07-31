@@ -1,0 +1,32 @@
+.navbar-custom {
+  padding: 10px; /* Aumenta o espaçamento superior */
+}
+
+.navbar-logo {
+  width: 100px; /* Define a largura da imagem */
+  height: auto; /* Mantém a proporção da imagem */
+}
+
+.nav-link {
+  color: rgb(0, 0, 0); /* Define a cor do texto como branco */
+  letter-spacing: 4px; /* Adiciona um pouco de espaçamento entre as letras */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Aplica um text shadow */
+
+}
+
+.nav-item{
+  padding: 5px;
+}
+.btn-nav{
+  background-color:#095d80 ;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+.btn-nav:hover{
+  background-color:#09415b ;
+  color: #fff;
+}
+.navbar-toggler-icon{
+  color: #095d80;
+}

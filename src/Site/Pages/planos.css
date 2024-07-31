@@ -1,0 +1,33 @@
+.line-titulo{
+    margin-bottom: -70px;
+}
+.titulo h1{
+    color: #fff;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.4); /* Aplica um text shadow */
+    transition: color 0.3s ease-in-out; /* Adiciona transição de cor */
+
+}
+.titulo p{
+    color: #fff;
+    font-size: 1.2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.4); /* Aplica um text shadow */
+    transition: color 0.3s ease-in-out; /* Adiciona transição de cor */
+
+}
+.card-site{
+    width: 600px;
+}
+#precos{
+    background: linear-gradient(to right, #095d80, #b70a3c); /* Gradiente de azul para azul claro */
+    border-bottom: solid 4px #b70a3c;
+
+}
+.btn-voltar {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+    border: solid 4px #095d80;
+    border-radius: 10px;
+}

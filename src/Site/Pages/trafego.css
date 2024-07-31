@@ -1,0 +1,80 @@
+.banner-trafego {
+    background: linear-gradient(to right, #095d80, #b70a3c);
+    /* Gradiente de azul para azul claro */
+}
+
+.content-trafego h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    color: #fff;
+    font-size: 2.0rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.4);
+    /* Aplica um text shadow */
+    transition: color 0.3s ease-in-out;
+    /* Adiciona transição de cor */
+}
+
+.content-trafego p {
+    color: #fff;
+    font-size: 1.2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.4);
+    /* Aplica um text shadow */
+    transition: color 0.3s ease-in-out;
+    /* Adiciona transição de cor */
+}
+
+.btn-trafego {
+    background-color: #095d80;
+    color: #fff;
+}
+
+.btn-trafego:hover {
+    background-color: #09415b;
+    color: #fff;
+}
+
+.container-trafego {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+}
+
+.card-trafego {
+    width: 328px;
+    background-color: #b70a3c;
+    transition: transform 0.3s ease;
+    padding: 10px;
+}
+
+.card-trafego:hover {
+    transform: translateY(-5px);
+}
+
+.card-trafego i {
+    font-size: xx-large;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.4);    /* Aplica um text shadow */
+}
+
+
+.beneficios {
+    background-color: #b70a3c;
+    border-bottom: solid 4px #095d80;
+
+}
+.card-trafego h2,
+.text-beneficios{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.4);    /* Aplica um text shadow */
+}
+.beneficio img{
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+    
+}
+
+.beneficio img:hover {
+    transform: scale(1.05); /* Aumenta o tamanho da imagem no hover */
+}

@@ -1,0 +1,69 @@
+.sobre {
+  padding: 50px 0;
+  background-color: #fff;
+
+}
+
+.container-fe {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.card {
+  width: 300px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.content {
+  padding: 20px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.saiba-mais {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #095d80; /* Altera a cor do botão */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.saiba-mais:hover {
+  background-color: #03374e;
+}
+.saiba-mais,
+.saiba-mais:hover,
+.saiba-mais:focus,
+.saiba-mais:active {
+  color: #fff;
+  text-decoration: none;
+}
+.titulo-servicos {
+  color: #000000;
+  text-align: center; /* Centraliza o texto */
+  margin-top: 20px; /* Espaçamento superior */
+  margin-bottom: 40px; /* Espaçamento inferior */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Aplica um text shadow */
+}

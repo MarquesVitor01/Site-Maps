@@ -1,0 +1,59 @@
+.company-background {
+    position: relative;
+    height: 700px; /* Ajuste conforme necessário */
+  }
+  
+  .content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding: 30px;
+  }
+  
+  .container-v {
+    background: linear-gradient(to right, #b70a3c, #095d80); /* Gradiente de azul para azul claro */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.8), /* Sombra superior */
+    0px -2px 15px rgba(0, 0, 0, 0.8); /* Sombra inferior */
+}
+
+
+
+.title {
+    
+    padding-top: 25px;
+    margin-bottom: 10px; /* Espaçamento entre o título e o conteúdo */
+}
+
+.text-h {
+    padding-top: 25px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.4); /* Aplica um text shadow */
+    color: #ffffff;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    transition: color 0.3s ease-in-out; /* Adiciona transição de cor */
+}
+
+.text-p {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.4); /* Aplica um text shadow */
+    color: #ffffff;
+    text-align: justify;
+    font-size: 1.2rem;
+    transition: text-shadow 0.3s ease-in-out; /* Adiciona transição de sombra */
+}
+
+
+.company-image {
+    border-radius: 5px;
+    width: 50%; /* Ajuste conforme necessário */
+    height: auto;
+    margin-bottom: 30px; /* Espaçamento entre o título e o conteúdo */    
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.4); /* Adiciona sombra */
+    transition: transform 0.3s ease-in-out; /* Adiciona transição */
+}
+.company-image:hover {
+    transform: scale(1.05); /* Aumenta o tamanho da imagem no hover */
+}
