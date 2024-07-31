@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/MarquesVitor01/Site-Maps.git/static/css/main.a2a5e6ff.css",
+    "main.js": "/MarquesVitor01/Site-Maps.git/static/js/main.e760621f.js",
+    "static/media/slick.svg": "/MarquesVitor01/Site-Maps.git/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/MarquesVitor01/Site-Maps.git/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/MarquesVitor01/Site-Maps.git/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "index.html": "/MarquesVitor01/Site-Maps.git/index.html",
+    "static/media/slick.woff": "/MarquesVitor01/Site-Maps.git/static/media/slick.295183786cd8a1389865.woff",
+    "main.a2a5e6ff.css.map": "/MarquesVitor01/Site-Maps.git/static/css/main.a2a5e6ff.css.map",
+    "main.e760621f.js.map": "/MarquesVitor01/Site-Maps.git/static/js/main.e760621f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a2a5e6ff.css",
+    "static/js/main.e760621f.js"
+  ]
+}
